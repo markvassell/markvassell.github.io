@@ -4,7 +4,7 @@
 		left: 14%;
 		height: auto;
 		width: 82%;
-		background-color: grey;
+		
 	}
 	.text{
 		width: inherit;
@@ -17,4 +17,7 @@
 		position: absolute;
  		top: 15%;
   		left: 82%;
+  	}
+  	body{
+  		background-color: rgba(128, 128, 128, 0.05);
   	}
