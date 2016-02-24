@@ -15,5 +15,5 @@
                         document.getElementById("info").innerHTML='<object type="text/html" class = "text" data="content/accomplishment.html" ></object>';
                 }
                 function experience(){
-                		document.getElementById("info").innerHTML='<object type="text/html" class = "text" data="content/experience.html" ></object>';
+                	document.getElementById("info").innerHTML='<object type="text/html" class = "text" data="content/experience.html" ></object>';
                 }
