@@ -1,59 +1,230 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Mark's Résume</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-   	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	<script type="text/JavaScript" src="functions/functions.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-</head>
+    <head>
+        <title>M. Vassell Résume</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+              html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+              #my_name {
+                color: white
+              }
+        </style>
+        <script>
+            function myFunction(id) {
+                var x = document.getElementById(id);
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+        </script>
+    </head>
+<body class="w3-light-grey">
 
-<body onload = "home()">
-<nav class="navbar navbar-inverse navbar-fixed-top">
-	<div class="container-fluid">
-		<div class="navbar-header">
-      		<p class="navbar-brand">Mark's Resume</p>
-    	</div>
-    	
-		<ul class="nav nav-tabs">
-		  	<li role="presentation"><a href="#Home" onclick = 'home()'><span class="glyphicon glyphicon-leaf"></span> Home</a></li>
-  			<li role="presentation"><a href="#School" onclick = 'school()'><span class="glyphicon glyphicon-pencil"></span> School</a></li>
- 		 	<li role="presentation"><a href="#Work" onclick = 'work()'><span class="glyphicon glyphicon-briefcase"></span> Work</a></li>
- 		 	<li role="presentation"><a href="#Experience" onclick = 'experience()'><span class="glyphicon glyphicon-time"></span> Experience</a></li>
- 		 	<li role="presentation"><a href="#Contact" onclick = 'contact()'><span class="glyphicon glyphicon-earphone"> Contact</a></li>
-  			<li role="presentation"><a href="#Accomplishments" onclick = 'accomplish()'><span class="glyphicon glyphicon-star-empty"></span> Accomplishments</a></li>
-			<div class = "help"><button type="button" class="btn btn-primary " data-toggle="modal" data-target="#myModal">Help</button></div>
-		</ul>
-		
-	</div>
-	
-</nav>
-<!--<img id = "pic" src="https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/10687023_922010277820193_7655298647942050395_n.jpg?oh=35421e8e544d4e3db0ccec43bd8e3612&oe=55F9F190" class="img-rounded" alt="me" width="304" height="236">-->
-	<div id = "info"></div>
-<div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Help Section</h4>
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+
+    <!-- Left Column -->
+    <div class="w3-third">
+
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="Dennis.jpg" style="width:100%" alt="My Photo">
+          <div class="w3-display-topleft w3-container w3-text-black">
+            <h2 id = "my_name">Mark D. Vassell</h2>
+          </div>
         </div>
-        <div class="modal-body">
-          <p>To navigate through my resume click on any of the menu items. Each Item has a 
-          label representing where it will take you. If you click on a link in any of the 
-          sections and you would like to return to where you previously were just click on
-           the menu-bar tab that matches the area you were previously in.<br>If you need anymore assistance
-          contact the administrator, his contact information is in the contact section. </p>
+        <div class="w3-container">
+          <p><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-large w3-text-green"></i>Graduate Student</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-green"></i>923 Tiger Ave., Columbia, MO, 65201</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-green"></i>mdvy96@mail.missouri.edu</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-green"></i> (314) 546-3894</p>
+          <hr>
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-green"></i>Objective</b></p>
+          <p>My overall objective is to gain knowledge, expand my horizon, and use the skills I already possess to benefit the group or company that gives me the opportunity to excel.</p>
+
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-green"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-green" style="height:24px;width:100%"></div>
+          </div>
+          <p>Jamaican Patois</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-green" style="height:24px;width:100%"></div>
+          </div>
+          <br>
+
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+        <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-book fa-fw w3-margin-right w3-xxlarge w3-text-green"></i>Education</h2>
+
+            <div class="w3-container">
+                <h5 class="w3-opacity"><b>University of Missouri - Columbia</b></h5>
+                <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2017 - <span class="w3-tag w3-green w3-round">Current</span></h6>
+                <p>Master of Engineering Computer Science</p>
+                <p>GPA: 4.0</p>
+                <p>Course Work</p>
+                <button onclick="myFunction('malware')" class="w3-btn w3-block w3-green w3-left-align"><i class="fa fa-arrow-down fa-fw w3-margin-right w3-large w3-text-white"></i>Malware Analysis and Defense</button>
+                <div id="malware" class="w3-container w3-hide">
+                    <h4>CMP_SC 7440 | 3 Credit Hours</h4>
+                    <p>
+                        This course teaches how to understand the nature and types of viruses
+                        and how they are threats; teaches techniques used to prevent, detect,
+                        repair and defend against viruses and worms; teaches program binary
+                        examination tools to detect malicious code; and ethical issues surround
+                        computer security violations.
+                    </p>
+                 </div>
+                 <button onclick="myFunction('Cloud_Computing')" class="w3-btn w3-block w3-green w3-left-align"><i class="fa fa-arrow-down fa-fw w3-margin-right w3-large w3-text-white"></i>Cloud Computing</button>
+
+                 <div id="Cloud_Computing" class="w3-container w3-hide">
+                      <h4>CMP_SC 7530 | 3 Credit Hours</h4>
+                      <p>
+                          This course covers principles that integrate computing theories and
+                          information technologies with the design, programming and application
+                          of distributed systems. It also goes over distributed system models
+                          and enabling technologies; virtual machines and virtualization of clusters,
+                          networks and data centers; cloud platform architecture with security over
+                          virtualized data centers; service- oriented architectures for distributed
+                          computing; and cloud programming and software environments.
+                      </p>
+                 </div>
+                 <button onclick="myFunction('Computer_Graphics_I')" class="w3-btn w3-block w3-green w3-left-align"><i class="fa fa-arrow-down fa-fw w3-margin-right w3-large w3-text-white"></i>Computer Graphics 1</button>
+
+                 <div id="Computer_Graphics_I" class="w3-container w3-hide">
+                      <h4>CMP_SC 7610 | 3 Credit Hours</h4>
+                      <p>
+                           Basic concepts and techniques of interactive computer graphics including
+                           hardware, software, data structures, mathematical manipulation of
+                           graphical objects, the user interface, and fundamental implementation
+                           algorithms.
+                      </p>
+                 </div>
+
+                 <hr>
+
+             </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>University of Missouri - Columbia</b></h5>
+            <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2012 - Dec 2016</h6>
+            <p>Bachelor of Science Computer Science</p>
+            <p>GPA: 3.0</p>
+            <br>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Scholarships</b></h5>
+            <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2012 - May 2016</h6>
+            <p>Western Golf Association | Evans Scholars Foundation</p>
+            <p>Scholarship site is <a href="https://www.wgaesf.org/site/c.dwJTKiO0JgI8G/b.6021411/k.8F77/Scholarships.htm" target='_blank'>here</a></p>
+            <br>
+            <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2012 - <span class="w3-tag w3-green w3-round">Current</span></h6>
+            <p>Bill and Melinda Gates Foundation | Gates Millennium Scholarship</p>
+            <p>Scholarship site is <a href="http://www.gmsp.org/" target='_blank'>here</a></p>
+          </div>
+        </div>
+
+      <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-green"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Boeing Intern</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2017 - August 2017</h6>
+          <p>My main role was to drive change and encourage innovations.  I managed the innovations tool.  The innovations tool is a place where employees can submit their ideas on how tasks in the company could be improved.  When the idea start to make waves in the online community, I would meet with the innovator and walk through their idea with them. I brought up things that they may have missed, the possible drawbacks, and the possible benefits.</p>
+          <hr>
+          <p>
+            My second role was to do disaster recovery planning.  I reviewed the plans, updated any pertinent data, and got approval from the application team.  I came up with a proposal on how to automate this process.  The proposal include automatic updates (update application information from the database where the information is stored), automated scripts to send out emails for approval from the application team, and automated reminders when plans need to get reviewed.  This would in make all the plans consistent and stay in regulation with the government policies.  If implemented on the 2000+ applications the company has, there would be an estimated savings of $2.6 million yearly. My teammates and I presented this information to the VP and she in turn got it to the CTO’s desk.
+          </p>
+        </div>
+        <hr>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Graduate Assistant / Food and Agricultural Policy Research Institute - University of Missouri - Columbia</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2017 - <span class="w3-tag w3-green w3-round">Current</span></h6>
+          <p>Helped to develop the application for the USDA ERS conversion from excel models to R.</p>
+          <p>Developed and Maintain the Risk Simulator web tool created with MYSQL, PHP, HTML5, JavaScript, Bootstrap, Ajax, and jQuery</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Graduate Teaching Assistant / University of Missouri - Columbia </b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2017 - May 2017</h6>
+          <p>Held office hours and graded assignments for INFOTC 1040 Python </p>
+          <br>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Graduate Resident Advisor / Missouri Evans Scholarship House </b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2016 - <span class="w3-tag w3-green w3-round">Current</span></h6>
+          <p>Works closely with individual Evans Scholars along with the Executive Board and Chapter Advisors to ensure the success of all the Evans Scholars. </p>
+          <br>
+          <hr>
         </div>
       </div>
-      
-    </div>
-  </div>
-</body>
 
+      <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-star-o fa-fw w3-margin-right w3-xxlarge w3-text-green"></i>Projects</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Dolus: Defense using Pretense against DDoS in Cloud Platforms</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2017 - May 2017</h6>
+          <p>Use software defined networking on internet exchange points to detect attack closer to the source and re-route the attacker's traffic to an virtual machine that mimics the original application.</p>
+          <p>Here is a link to the ICDCN paper: <a target='_blank' href = "http://markvassell.com/dolus.pdf" > Dolus Defense by Pretense</a></p>
+          <p>Presentations <a target='_blank' href = "https://www.youtube.com/watch?v=LppBPu477WU&feature=youtu.be" > Dolus for DDos</a> <a target='_blank' href ="https://www.youtube.com/watch?v=9z9EMubjc4Q">Dolus for APTs</a></p>
+
+          <hr>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Panacea's Cloud</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2015 - August 2015</h6>
+          <p>Developed a system to improve coordination and communication in disastrous  situations. Integrated wearable technologies with a command center to improve triage.</p>
+          <p>Here is a link to the IEEE paper: <a target='_blank' href = "http://faculty.missouri.edu/calyamp/publications/panacea-ics-dashboard-ccnc16.pdf" > Panacea's Cloud</a></p>
+          <p>Here is a link to the presentation: <a target='_blank' href = "http://reu.rnet.missouri.edu/REU07-16/REU15/Projects/Team2/Presentation.pdf" > Panacea's Presentation</a></p>
+
+          <hr>
+        </div>
+
+      </div>
+
+      <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-key fa-fw w3-margin-right w3-xxlarge w3-text-green"></i>Events</h2>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Black and Veatch Hackathon</b></h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2016</h6>
+          <p>Presented with the challenge of Designing a smart city. Went beyond the requirements and designed a maintenance system for smart cities. The system consisted of a UI that monitors the IoT devices that communicate with each other in the smart city with a notification system for when a failure is detected. Placed third in the competition.</p>
+
+        </div>
+
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+
+  <!-- End Grid -->
+  </div>
+
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-green w3-center w3-margin-top">
+
+
+</footer>
+
+</body>
 </html>
