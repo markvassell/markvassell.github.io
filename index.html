@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+        <link rel='stylesheet' href='./css/dennis-resume.css'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
               html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
@@ -43,15 +44,16 @@
           </div>
         </div>
         <div class="w3-container">
-          <p><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-large w3-text-green"></i>Graduate Student</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-green"></i>923 Tiger Ave., Columbia, MO, 65201</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-green"></i>mdvy96@mail.missouri.edu</p>
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-green"></i>Software Engineer</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-green"></i>markvassell@gmail.com</p>
           <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-green"></i> (314) 546-3894</p>
           <hr>
           <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-green"></i>Objective</b></p>
-          <p>My overall objective is to gain knowledge, expand my horizon, and use the skills I already possess to benefit the group or company that gives me the opportunity to excel.</p>
+          <p>
+            To leverage the knowledge and skills I possess to bring a unique perspective to the organization that I'm associated with. 
+          </p>
 
-          <br>
+          <!-- <br>
 
           <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-green"></i>Languages</b></p>
           <p>English</p>
@@ -62,7 +64,7 @@
           <div class="w3-light-grey w3-round-xlarge">
             <div class="w3-round-xlarge w3-green" style="height:24px;width:100%"></div>
           </div>
-          <br>
+          <br> -->
 
         </div>
       </div><br>
@@ -245,9 +247,9 @@
 
       <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-green"></i>Work Experience</h2>
-
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Boeing Software Engineer Intern | BR&T</b></h5>
+        <button onclick="myFunction('2018-internship')" class="w3-btn w3-block w3-green w3-left-align"><i class="fa fa-arrow-down fa-fw w3-margin-right w3-large w3-text-white"></i>Software Engineer Intern | Boeing R&T</button>
+        <div class="w3-container w3-hide" id="2018-internship">
+          <!-- <h5 class="w3-opacity"><b>Boeing Software Engineer Intern | BR&T</b></h5> -->
           <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2018 - August 2018</h6>
           <p>
             In this internship I was given the opportunity to develop my own solution to integrate weather data and weather simulations into 
@@ -255,12 +257,9 @@
             into UE4, simulated weather conditions, researched what technologies could be used to generate my solutions, and provided full documentation of my work.
           </p>
         </div>
-        <hr>
-
-
-
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Boeing Information Technology Intern | BSCS</b></h5>
+        <button onclick="myFunction('2017-internship')" class="w3-btn w3-block w3-green w3-left-align"><i class="fa fa-arrow-down fa-fw w3-margin-right w3-large w3-text-white"></i>IT Intern | Boeing BSCS</button>
+        <div class="w3-container w3-hide" id='2017-internship'>
+          <!-- <h5 class="w3-opacity"><b>Boeing Information Technology Intern | BSCS</b></h5> -->
           <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2017 - August 2017</h6>
           <p>My main role was to drive change and encourage innovations.  I managed the innovations tool.  The innovations tool is a place where employees can submit their ideas on how tasks in the company could be improved.  When the idea start to make waves in the online community, I would meet with the innovator and walk through their idea with them. I brought up things that they may have missed, the possible drawbacks, and the possible benefits.</p>
           <hr>
@@ -268,28 +267,25 @@
             My second role was to do disaster recovery planning.  I reviewed the plans, updated any pertinent data, and got approval from the application team.  I came up with a proposal on how to automate this process.  The proposal include automatic updates (update application information from the database where the information is stored), automated scripts to send out emails for approval from the application team, and automated reminders when plans need to get reviewed.  This would in make all the plans consistent and stay in regulation with the government policies.  If implemented on the 2000+ applications the company has, there would be an estimated savings of $2.6 million yearly. My teammates and I presented this information to the VP and she in turn got it to the CTO’s desk.
           </p>
         </div>
-        <hr>
-
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Graduate Assistant / Food and Agricultural Policy Research Institute - University of Missouri - Columbia</b></h5>
+       
+        <button onclick="myFunction('2018-fapri')" class="w3-btn w3-block w3-green w3-left-align"><i class="fa fa-arrow-down fa-fw w3-margin-right w3-large w3-text-white"></i>Graduate Assistant | FAPRI MU</button>
+        <div class="w3-container w3-hide" id='2018-fapri'>
+          <!-- <h5 class="w3-opacity"><b>Graduate Assistant / Food and Agricultural Policy Research Institute - University of Missouri - Columbia</b></h5> -->
           <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2017 - <span class="w3-tag w3-green w3-round">Current</span></h6>
           <p>Helped to develop the application for the USDA ERS conversion from excel models to R.</p>
           <p>Developed and Maintain the Risk Simulator web tool created with MYSQL, PHP, HTML5, JavaScript, Bootstrap, Ajax, and jQuery</p>
-          <hr>
         </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Graduate Teaching Assistant / University of Missouri - Columbia </b></h5>
+        <button onclick="myFunction('2018-ta')" class="w3-btn w3-block w3-green w3-left-align"><i class="fa fa-arrow-down fa-fw w3-margin-right w3-large w3-text-white"></i>Graduate Teaching Assistant | University of Missouri - Columbia</button>
+        <div class="w3-container w3-hide" id='2018-ta'>
           <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2017 - May 2017</h6>
           <p>Held office hours and graded assignments for INFOTC 1040 Python </p>
           <br>
-          <hr>
         </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Graduate Resident Advisor / Missouri Evans Scholarship House </b></h5>
+        <button onclick="myFunction('2018-evans')" class="w3-btn w3-block w3-green w3-left-align"><i class="fa fa-arrow-down fa-fw w3-margin-right w3-large w3-text-white"></i>Graduate Resident Advisor | Missouri Evans Scholarship House</button>
+        <div class="w3-container w3-hide" id='2018-evans'>
           <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2016 - <span class="w3-tag w3-green w3-round">Current</span></h6>
           <p>Works closely with individual Evans Scholars along with the Executive Board and Chapter Advisors to ensure the success of all the Evans Scholars. </p>
           <br>
-          <hr>
         </div>
       </div>
 
