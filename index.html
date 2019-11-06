@@ -82,7 +82,7 @@
                 <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2017 - <span class="w3-tag w3-green w3-round">Current</span></h6>
                 <p>Master of Engineering Computer Science</p>
                 <p>GPA: 4.0</p>
-                <u>Course Work</u>
+                <h6 class="w3-opacity">Course Work</h6>
 
                 <button onclick="myFunction('cs7070')" class="w3-btn w3-block w3-green w3-left-align"><i class="fa fa-arrow-down fa-fw w3-margin-right w3-large w3-text-white"></i>Numerical Methods for Science and Engineering</button>
 
@@ -218,11 +218,6 @@
                     </p>
                 </div>
 
-
-
-
-
-
                 <hr>
 
              </div>
@@ -237,7 +232,13 @@
             <h5 class="w3-opacity"><b>Scholarships</b></h5>
             <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2012 - May 2016</h6>
             <p>Western Golf Association | Evans Scholars Foundation</p>
-            <p>Scholarship site is <a href="https://www.wgaesf.org/site/c.dwJTKiO0JgI8G/b.6021411/k.8F77/Scholarships.htm" target='_blank'>here</a></p>
+            <p>Scholarship site is 
+              <a 
+              href="https://www.wgaesf.org/site/c.dwJTKiO0JgI8G/b.6021411/k.8F77/Scholarships.htm" 
+              target='_blank'>
+                here
+              </a>
+            </p>
             <br>
             <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2012 - <span class="w3-tag w3-green w3-round">Current</span></h6>
             <p>Bill and Melinda Gates Foundation | Gates Millennium Scholarship</p>
@@ -246,44 +247,64 @@
         </div>
 
       <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-green"></i>Work Experience</h2>
-        <button onclick="myFunction('2018-internship')" class="w3-btn w3-block w3-green w3-left-align"><i class="fa fa-arrow-down fa-fw w3-margin-right w3-large w3-text-white"></i>Software Engineer Intern | Boeing R&T</button>
+        <h2 class="w3-text-grey w3-padding-16">
+          <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-green"></i>
+          Work Experience
+        </h2>
+        <button 
+          onclick="myFunction('2018-internship')" 
+          class="w3-btn w3-block w3-green w3-left-align">
+          <i class="fa fa-arrow-down fa-fw w3-margin-right w3-large w3-text-white"></i>
+          Software Engineer Intern
+        </button>
         <div class="w3-container w3-hide" id="2018-internship">
-          <!-- <h5 class="w3-opacity"><b>Boeing Software Engineer Intern | BR&T</b></h5> -->
+          <h5 class="w3-opacity">Boeing Research and Technology (BR&T)</h5>
           <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2018 - August 2018</h6>
           <p>
             In this internship I was given the opportunity to develop my own solution to integrate weather data and weather simulations into 
-            an Unreal Engine 4 environment. I created a C++ plugin that connects to an external weather server, loaded Digital Elevation Model (DEM)
-            into UE4, simulated weather conditions, researched what technologies could be used to generate my solutions, and provided full documentation of my work.
+            an Unreal Engine 4 environment. I created a C++ plugin that connects to an external weather server, loaded Digital Elevation 
+            Model (DEM) into UE4, simulated weather conditions, researched what technologies could be used to generate my solutions, 
+            and provided full documentation of my work.
           </p>
         </div>
-        <button onclick="myFunction('2017-internship')" class="w3-btn w3-block w3-green w3-left-align"><i class="fa fa-arrow-down fa-fw w3-margin-right w3-large w3-text-white"></i>IT Intern | Boeing BSCS</button>
+        <button onclick="myFunction('2017-internship')" class="w3-btn w3-block w3-green w3-left-align"><i class="fa fa-arrow-down fa-fw w3-margin-right w3-large w3-text-white"></i>IT Intern</button>
         <div class="w3-container w3-hide" id='2017-internship'>
-          <!-- <h5 class="w3-opacity"><b>Boeing Information Technology Intern | BSCS</b></h5> -->
+          <h5 class="w3-opacity">Boeing Business and Supply Chain Systems (BSCS)</h5>
           <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2017 - August 2017</h6>
-          <p>My main role was to drive change and encourage innovations.  I managed the innovations tool.  The innovations tool is a place where employees can submit their ideas on how tasks in the company could be improved.  When the idea start to make waves in the online community, I would meet with the innovator and walk through their idea with them. I brought up things that they may have missed, the possible drawbacks, and the possible benefits.</p>
+          <p>My main role was to drive change and encourage innovations.  I managed the innovations tool.  The innovations tool is a place 
+            where employees can submit their ideas on how tasks in the company could be improved.  When the idea start to make waves in the 
+            online community, I would meet with the innovator and walk through their idea with them. I brought up things that they may 
+            have missed, the possible drawbacks, and the possible benefits.</p>
           <hr>
           <p>
-            My second role was to do disaster recovery planning.  I reviewed the plans, updated any pertinent data, and got approval from the application team.  I came up with a proposal on how to automate this process.  The proposal include automatic updates (update application information from the database where the information is stored), automated scripts to send out emails for approval from the application team, and automated reminders when plans need to get reviewed.  This would in make all the plans consistent and stay in regulation with the government policies.  If implemented on the 2000+ applications the company has, there would be an estimated savings of $2.6 million yearly. My teammates and I presented this information to the VP and she in turn got it to the CTO’s desk.
+            My second role was to do disaster recovery planning.  I reviewed the plans, updated any pertinent data, and got approval from 
+            the application team.  I came up with a proposal on how to automate this process. The proposal include automatic updates 
+            (update application information from the database where the information is stored), automated scripts to send out emails for
+            approval from the application team, and automated reminders when plans need to get reviewed.  This would in make all the plans
+            consistent and stay in regulation with the government policies.  If implemented on the 2000+ applications the company has, there 
+            would be an estimated savings of $2.6 million yearly. My teammates and I presented this information to the VP and she in turn 
+            got it to the CTO’s desk.
           </p>
         </div>
        
-        <button onclick="myFunction('2018-fapri')" class="w3-btn w3-block w3-green w3-left-align"><i class="fa fa-arrow-down fa-fw w3-margin-right w3-large w3-text-white"></i>Graduate Assistant | FAPRI MU</button>
+        <button onclick="myFunction('2018-fapri')" class="w3-btn w3-block w3-green w3-left-align"><i class="fa fa-arrow-down fa-fw w3-margin-right w3-large w3-text-white"></i>Graduate Full Stack Developer</button>
         <div class="w3-container w3-hide" id='2018-fapri'>
-          <!-- <h5 class="w3-opacity"><b>Graduate Assistant / Food and Agricultural Policy Research Institute - University of Missouri - Columbia</b></h5> -->
-          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2017 - <span class="w3-tag w3-green w3-round">Current</span></h6>
+          <h5 class="w3-opacity">Food and Agricultural Policy Research Institute - University of Missouri - Columbia (FAPRI MU)</h5>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2017 - Dec 2018</h6>
           <p>Helped to develop the application for the USDA ERS conversion from excel models to R.</p>
           <p>Developed and Maintain the Risk Simulator web tool created with MYSQL, PHP, HTML5, JavaScript, Bootstrap, Ajax, and jQuery</p>
         </div>
-        <button onclick="myFunction('2018-ta')" class="w3-btn w3-block w3-green w3-left-align"><i class="fa fa-arrow-down fa-fw w3-margin-right w3-large w3-text-white"></i>Graduate Teaching Assistant | University of Missouri - Columbia</button>
+        <button onclick="myFunction('2018-ta')" class="w3-btn w3-block w3-green w3-left-align"><i class="fa fa-arrow-down fa-fw w3-margin-right w3-large w3-text-white"></i>Graduate Teaching Assistant</button>
         <div class="w3-container w3-hide" id='2018-ta'>
+          <h5 class="w3-opacity">University of Missouri - Columbia</h5>
           <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2017 - May 2017</h6>
           <p>Held office hours and graded assignments for INFOTC 1040 Python </p>
           <br>
         </div>
-        <button onclick="myFunction('2018-evans')" class="w3-btn w3-block w3-green w3-left-align"><i class="fa fa-arrow-down fa-fw w3-margin-right w3-large w3-text-white"></i>Graduate Resident Advisor | Missouri Evans Scholarship House</button>
+        <button onclick="myFunction('2018-evans')" class="w3-btn w3-block w3-green w3-left-align"><i class="fa fa-arrow-down fa-fw w3-margin-right w3-large w3-text-white"></i>Graduate Resident Advisor</button>
         <div class="w3-container w3-hide" id='2018-evans'>
-          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2016 - <span class="w3-tag w3-green w3-round">Current</span></h6>
+          <h6 class="w3-text-green"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2016 - Dec 2018</h6>
+          <h5 class="w3-opacity">Missouri Evans Scholarship House</h5>
           <p>Works closely with individual Evans Scholars along with the Executive Board and Chapter Advisors to ensure the success of all the Evans Scholars. </p>
           <br>
         </div>
